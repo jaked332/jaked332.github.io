@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: <canvas width="800" height="800" style="display: block;"></canvas>
+image: <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="file:///C:/Users/jaked/Downloads/cropped-b1eee16bd5b74dc9352c7902f97e96ba5422c567.png">
 title: "3D Programming"
 date: 2023
 published: true
