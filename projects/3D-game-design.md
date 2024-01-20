@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: 
+image: <canvas width="800" height="800" style="display: block;"></canvas>
 title: "3D Programming"
 date: 2023
 published: true
