@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" >
+image: img/pixelart/pixelart-square.jpg
 title: "3D Programming"
 date: 2023
 published: true
