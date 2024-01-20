@@ -1,7 +1,8 @@
 ---
 layout: project
 type: project
-image: 
+image: ![jesse-eisenbart-itch-cover](https://github.com/jaked332/jaked332.github.io/assets/92128947/fd25b4a1-86dc-4f91-9401-db81574bf307)
+
 title: "3D Programming"
 date: 2023
 published: true
