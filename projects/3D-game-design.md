@@ -7,8 +7,7 @@ date: 2023
 published: true
 labels:
   - C Sharp
-  - Meteor
-  - MongoDB
+  - Unity
   - GitHub
 summary: "A responsive game that was made in Unity that my group developed in ICS 369."
 ---
