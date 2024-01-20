@@ -1,8 +1,7 @@
 ---
 layout: project
 type: project
-image: ![jesse-eisenbart-itch-cover](https://github.com/jaked332/jaked332.github.io/assets/92128947/fd25b4a1-86dc-4f91-9401-db81574bf307)
-
+image: <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://cdn.discordapp.com/attachments/1075911164988493847/1080025903586877440/jesse-eisenbart-itch-cover.gif?ex=65b8a281&amp;is=65a62d81&amp;hm=c5b2624fce3d3ce731aec86c12d2fc7ede9a8e976e447edf3c1c878e91269a66&amp;">
 title: "3D Programming"
 date: 2023
 published: true
