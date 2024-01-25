@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Screenshot 2024-01-25 091815.png
 title: "Create(X)"
 date: 2023
 published: true
