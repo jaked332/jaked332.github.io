@@ -13,7 +13,7 @@ summary: "My team developed a robotic mouse that won first place in the 2015 UH 
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/Screenshot 2024-01-25 091536.png" class="img-thumbnail" >
   <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
