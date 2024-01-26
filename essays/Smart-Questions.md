@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Smart Questions, Good Answers
 date: 2024-01-25
-published: false
+published: true
 labels:
   - Questions
   - Answers
@@ -14,4 +14,8 @@ labels:
 ## Is there such thing as a stupid question?
 
 
-## Excel Datavalidation list if record satisfies the condition
+## Excel Data validation list if record satisfies the condition
+
+
+
+
