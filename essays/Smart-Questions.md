@@ -12,3 +12,6 @@ labels:
 
 
 ## Is there such thing as a stupid question?
+
+
+## Excel Datavalidation list if record satisfies the condition
