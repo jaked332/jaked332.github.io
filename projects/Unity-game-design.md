@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/cropped-b1eee16bd5b74dc9352c7902f97e96ba5422c567.png
-title: "3D Programming"
+title: "3 Programming"
 date: 2023
 published: true
 labels:
