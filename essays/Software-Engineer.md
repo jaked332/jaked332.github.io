@@ -3,8 +3,8 @@ layout: essay
 type: essay
 title: "Software Engineering and Knowledge"
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-18
-published: true
+date: 2024-MM-DD
+published: false
 labels:
   - Software
   - Answers
