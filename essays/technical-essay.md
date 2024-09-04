@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Igniting the code"
+title: "Igniting the Code"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-04
 published: true
@@ -10,8 +10,29 @@ labels:
   - Learning
 ---
 
-JavaScript has been a great language for me to refresh my memory from when I first started learning to code. It was actually the first programming language I learned. In my second year of high school, I took a coding class where JavaScript was the first language we studied. I found JavaScript to be a straightforward language, especially for creating 2D shapes on a small screen, such as a website. I also think JavaScript is a great language for creating images on a website, like the ones I made on CodeHS.
 
-This is my first time learning in a style where we write code in a limited amount of time. The athletic software engineering approach is new to me, especially with the WODs (Workouts of the Day). The WODs are challenging but exciting at the same time, and I think this learning style is particularly effective for JavaScript.
+JavaScript was the first language I learned, and it helped me understand the basics of programming, particularly for creating interactive elements for websites. Over the past couple of weeks, I've started learning TypeScript, a superset of JavaScript that adds static typing. This capability enhances error detection and makes the code more readable.
 
-Throughout my years of coding, I would say that JavaScript is one of the more basic languages. When I learned it in high school, I quickly grasped how to create shapes. In comparison, Java is of medium difficulty for me; I find it more challenging when writing code and handling exceptions to avoid infinite loops. On the other hand, C and C++ are some of the hardest languages I've encountered. If we had WODs for those languages, it would be a real challenge to master every syntax detail in that learning style.
+In JavaScript, to write a function for adding two numbers, we can do:
+
+```javascript
+function add(n1, n2) {
+  return n1 + n2;
+}
+```
+
+In TypeScript, we can write the same addition function but with types:
+
+```typescript
+function add(n1: number, n2: number): number {
+  return n1 + n2;
+}
+```
+
+The benefit of writing the above code using TypeScript is that it would prevent unexpected behavior, such as adding a number to a string. For example, in JavaScript, `console.log(add(10, "10"))` is valid, but in TypeScript, passing a string instead of a number will be flagged as an error.
+
+The athletic software engineering approach, with its practice WODs, is new to me. It's challenging but effective for learning under time constraints. While this method can be a bit stressful, I find it helpful in developing quick problem-solving skills.
+
+Compared to other programming languages that I've studied, like C and C++, JavaScript and TypeScript are easier to learn and use. The WODs could be more difficult in other languages, but the approach is very compatible with the simplicity of TypeScript.
+
+Overall, I think TypeScript is a strong tool to learn about, and the athletic approach is challenging but beneficial for becoming a better developer.
