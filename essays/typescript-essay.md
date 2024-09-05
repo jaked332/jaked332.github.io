@@ -31,7 +31,7 @@ function add(n1: number, n2: number): number {
 
 The benefit of writing the above code using TypeScript is that it would prevent unexpected behavior, such as adding a number to a string. For example, in JavaScript, `console.log(add(10, "10"))` is valid, but in TypeScript, passing a string instead of a number will be flagged as an error.
 
-The athletic software engineering approach, with its practice WODs, is new to me. It's challenging but effective for learning under time constraints. While this method can be a bit stressful, I find it helpful in developing quick problem-solving skills.
+The athletic software engineering approach with its practice WOD exercises is new to me. It’s challenging but effective for learning under time constraints. While this method can be a bit stressful, I find it helpful in developing problem-solving skills.
 
 Compared to other programming languages that I've studied, like C and C++, JavaScript and TypeScript are easier to learn and use. The WODs could be more difficult in other languages, but the approach is very compatible with the simplicity of TypeScript.
 

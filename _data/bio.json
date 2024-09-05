@@ -14,9 +14,8 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Interactive Media" },
+    { "name": "Web Design" },
     { "name": "Robotics" },
     { "name": "3D Graphics" }
   ],
