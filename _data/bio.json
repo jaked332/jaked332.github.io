@@ -6,11 +6,11 @@
     "email": "jaked3@hawaii.edu",
     "phone": "808-333-4444",
     "website": "https://jaked332.github.io/",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "I am currently pursuing a Bachelor of Science in Computer Science at the Department of Information and Computer Sciences, University of Hawaii, Manoa.",
     "location": { "address": "", "postalCode": "96814", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jaked332", "url": "https://github.com/jaked332" },
-      { "network": "linkedin", "username": "jake-dickinson", "url": "https://www.linkedin.com/in/jake-dickinson-3903412aa/" }
+      { "network": "linkedin", "username": "jake-dickinson", "url": "https://www.linkedin.com/in/jaketdickinson/" }
     ]
   },
   "interests": [
