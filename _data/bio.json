@@ -26,7 +26,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Git", "Visual Studio Code" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code" ]
     }
   ],
   "education": [
@@ -49,8 +49,8 @@
       "endDate": "2024-07",
       "summary": "",
       "highlights": [
+        "Gained hands-on experience in technical skills such as configuring gaming PCs.",
         "Engaged in a wide range of team-building exercises, including strategy-based games and collaborative problem-solving activities.",
-        "Gained hands-on experience in technical skills such as assembling and configuring gaming PCs.",
         "Competed in various esports tournaments, showcasing skills in a competitive gaming environment, while learning about communication and teamwork."
       ]
     },
