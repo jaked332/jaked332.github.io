@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96814", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "jaked332", "url": "https://github.com/jaked332" },
-      { "network": "linkedin", "username": "jake-dickinson", "url": "https://www.linkedin.com/in/jaketdickinson/" }
+      { "network": "linkedin", "username": "jaketdickinson", "url": "https://www.linkedin.com/in/jaketdickinson/" }
     ]
   },
   "interests": [
@@ -26,7 +26,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code" ]
+      "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code", "Eclipse" ]
     }
   ],
   "education": [
@@ -45,8 +45,8 @@
       "company": "Esports Arena Summer Camp",
       "position": "Participant",
       "website": "https://manoa.hawaii.edu",
-      "startDate": "2024-07",
-      "endDate": "2024-07",
+      "startDate": "2024",
+      "endDate": "2024",
       "summary": "",
       "highlights": [
         "Gained hands-on experience in technical skills such as configuring gaming PCs.",
@@ -58,8 +58,8 @@
       "company": "United States Tennis Association",
       "position": "Tennis Player",
       "website": "https://www.usta.com/en/home.html",
-      "startDate": "High School",
-      "endDate": "",
+      "startDate": "HS",
+      "endDate": "HS",
       "summary": "",
       "highlights": [
         "Competed in USTA events, demonstrating commitment through consistent training and match participation.",
