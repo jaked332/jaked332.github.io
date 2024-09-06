@@ -30,9 +30,13 @@ layout: home
         {% endfor %}
       </div>
       <div class="col">
+        {% if site.data.bio.basics.location.address %}
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
+        {% endif %}
         <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
+        {% if site.data.bio.basics.phone %}
         <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
+        {% endif %}
       </div>
     </div>
 
@@ -44,8 +48,7 @@ layout: home
         <p class="m-0">
           {% for entry in site.data.bio.interests %}
           {{ entry.name }}
-          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
-          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
+          {% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
       </div>
@@ -93,7 +96,7 @@ layout: home
               {% if entry.startDate %}
                 {{ entry.startDate | slice: 0,4 }}
               {% endif %}
-              {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
+              {% if entry.startDate and entry.endDate %}
               -
               {% endif %}
               {% if entry.endDate %}
@@ -111,16 +114,16 @@ layout: home
     </div>
     {% endif %}
 
-    {% if site.data.bio.work %}
+    {% if site.data.bio.involvement %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Work</h1>
+        <h1 class="display-6 text-start m-0">Involvement</h1>
       </div>
       <div class="col-lg-9">
-        {% for entry in site.data.bio.work %}
+        {% for entry in site.data.bio.involvement %}
           <div class="row mb-3">
             <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
+              <p class="mb-0"><b>{{ entry.position }}{% if entry.company %}, {{ entry.company }}{% endif %}</b></p>
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
@@ -136,50 +139,7 @@ layout: home
                 {% if entry.startDate %}
                   {{ entry.startDate | slice: 0,4 }}
                 {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-              </p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
-
-    {% if site.data.bio.volunteer %}
-      <div class="row pt-4 align-items-start">
-        <div class="col-lg-3">
-          <h1 class="display-6 text-start m-0">Activities</h1>
-        </div>
-        <div class="col-lg-9">
-          {% for entry in site.data.bio.volunteer %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
+                {% if entry.startDate and entry.endDate %}
                 -
                 {% endif %}
                 {% if entry.endDate %}
@@ -192,32 +152,6 @@ layout: home
               </p>
             </div>
           </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
-
-    {% if site.data.bio.awards %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Awards</h1>
-      </div>
-
-      <div class="col-lg-9">
-      {% for entry in site.data.bio.awards %}
-        <div class="row mb-3">
-          <div class="col-9">
-            <p class="mb-0">
-              <b>{{ entry.title }}</b>, {{ entry.awarder }}
-            </p>
-            <p class="mb-0">{{ entry.summary }}</p>
-          </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {{ entry.date}}
-            </p>
-          </div>
-        </div>
         {% endfor %}
       </div>
     </div>
@@ -233,9 +167,6 @@ layout: home
         <p class="m-0">
           {% for entry in site.data.bio.references %}
             {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
           {% endfor %}
         </p>
       </div>

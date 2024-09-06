@@ -4,7 +4,7 @@
     "label": "Student",
     "picture": "img/20231112_112003-EDIT.jpg",
     "email": "jaked3@hawaii.edu",
-    "phone": "808-333-4444",
+    "phone": "",
     "website": "https://jaked332.github.io/",
     "summary": "I am currently pursuing a Bachelor of Science in Computer Science at the Department of Information and Computer Sciences, University of Hawaii, Manoa.",
     "location": { "address": "", "postalCode": "96814", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
@@ -22,94 +22,55 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Python", "Java", "Javascript", "TypeScript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Windows", "Git", "Visual Studio Code" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii, Manoa, HI",
+      "area": "Computer Science",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2020",
       "endDate": "Present",
       "courses": [
       ]
     }
   ],
-  "work": [
+  "involvement": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Esports Arena Summer Camp",
+      "position": "Participant",
+      "website": "https://manoa.hawaii.edu",
+      "startDate": "2024-07",
+      "endDate": "2024-07",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Engaged in a wide range of team-building exercises, including strategy-based games and collaborative problem-solving activities.",
+        "Gained hands-on experience in technical skills such as assembling and configuring gaming PCs.",
+        "Competed in various esports tournaments, showcasing skills in a competitive gaming environment, while learning about communication and teamwork."
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
+      "company": "United States Tennis Association",
+      "position": "Tennis Player",
+      "website": "https://www.usta.com/en/home.html",
+      "startDate": "High School",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Competed in USTA events, demonstrating commitment through consistent training and match participation.",
+        "Developed skills in strategy, endurance, and sportsmanship, while working closely with coaches to improve technical aspects of the game.",
+        "Played both singles and doubles, contributing to team success with a competitive spirit through participation in several tournaments."
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Available Upon Request"
     }
   ]
 }
