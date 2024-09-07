@@ -5,7 +5,7 @@
     "picture": "img/20231112_112003-EDIT.jpg",
     "email": "jaked3@hawaii.edu",
     "phone": "",
-    "website": "https://jaked332.github.io/",
+    "website": "https://jaked332.github.io",
     "summary": "I am currently pursuing a Bachelor of Science in Computer Science at the Department of Information and Computer Sciences, University of Hawaii, Manoa.",
     "location": { "address": "", "postalCode": "96814", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
@@ -58,8 +58,8 @@
       "company": "United States Tennis Association",
       "position": "Tennis Player",
       "website": "https://www.usta.com/en/home.html",
-      "startDate": "HS",
-      "endDate": "HS",
+      "startDate": "2015",
+      "endDate": "2019",
       "summary": "",
       "highlights": [
         "Competed in USTA events, demonstrating commitment through consistent training and match participation.",

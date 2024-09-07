@@ -16,5 +16,3 @@ summary: "I worked on a Virtual Reality Project to fully immerse virtual reality
   <img width="200px" src="../img/Screenshot 2024-01-25 091536.png" class="img-thumbnail" >
   <img width="200px" src="../img/Create(x) program.png" class="img-thumbnail" >
 </div>
-
-   
