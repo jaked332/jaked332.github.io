@@ -11,7 +11,7 @@ labels:
 summary: "Developing Flower of Hope to bring a magical world to life through Unity, mastering object interaction, physics, and immersive 2D game aesthetics."
 ---
 
-<img alt="Image" src="../img/ICS-369-1.jpg">
+<img alt="Image" src="../img/ICS-369-1.jpg" width=500px>
 
 ### Background
 

@@ -11,7 +11,7 @@ labels:
 summary: "Utilizing graph theory to optimize island resource distribution and leader knowledge sharing through pathfinding algorithms and prioritization techniques."
 ---
 
-<img alt="Image" src="../img/Islands.png">
+<img alt="Image" src="../img/Islands.png" width=500px>
 
 ### Background
 

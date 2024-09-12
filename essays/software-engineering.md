@@ -10,7 +10,7 @@ labels:
   - Learning
 ---
 
-<img alt="Image" src="img/Unity-Logo.png">
+<img alt="Image" src="../img/Unity-Logo.png" width=500px>
 
 ### Before Majoring in Computer Science
 
