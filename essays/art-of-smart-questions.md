@@ -9,6 +9,8 @@ labels:
   - StackOverflow Insights
 ---
 
+<img alt="Image" src="../img/images.png" width=500px>
+
 ### Why do Smart Questions Matter?
 
 Effective communication is crucial for solving complex problems, particularly in software development. Strong communication skills enable developers to collaborate more effectively, exchange ideas seamlessly, and resolve issues faster. Asking smart questions is a vital part of this communication, as it streamlines the process and helps to convey the specific issue clearly to others.
@@ -25,7 +27,7 @@ They are puzzled about why this compiles and ask where in the C/C++ standard thi
 
 #### Outcome
 
-The community responded effectively, explaining that `-->` is parsed as two separate operators: `--` (decrement) and `>`. The top-voted answer (with over 10K votes) explains how the C/C++ parser interprets this sequence, referencing the appropriate sections of the C++ standard. The detailed and thoughtful answers reflect the quality of the question, with several answers engaging in discussions about operator precedence and syntax in C/C++.
+The community responded effectively, explaining that `-->` is parsed as two separate operators: `--` (decrement) and `>`. The top-voted answer (with over 9K votes) explains how the C/C++ parser interprets this sequence, referencing the appropriate sections of the C++ standard. The detailed and thoughtful answers reflect the quality of the question, with several answers engaging in discussions about operator precedence and syntax in C/C++.
 
 ### A "Not So Smart" Question
 
