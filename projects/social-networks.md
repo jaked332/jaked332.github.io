@@ -11,7 +11,7 @@ labels:
 summary: "Leveraging graph theory to identify and visualize influential users in social media networks through dynamic filtering and graph traversal."
 ---
 
-<img alt="Image" src="img/Graph.png">
+<img alt="Image" src="../img/Graph.png">
 
 ### Background
 
