@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Graph.png
+image: img/Graph-1.png
 title: "Identifying Influential Users"
 date: 2024
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "Leveraging graph theory to identify and visualize influential users in social media networks through dynamic filtering and graph traversal."
 ---
 
-<img alt="Image" src="../img/Graph.png" width=500px>
+<img alt="Image" src="../img/Graph-1.png" width=500px>
 
 ### Background
 
