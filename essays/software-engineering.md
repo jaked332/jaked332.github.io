@@ -10,13 +10,15 @@ labels:
   - Learning
 ---
 
+<img alt="Image" src="img/Unity-Logo.png">
+
 ### Before Majoring in Computer Science
 
-During high school, I was initially drawn to the field of accounting, as I found satisfaction in the logical structure and problem-solving aspects of the field. However, as I was exposed more to the world of Computer Science, I began to see its far-reaching impact and realized that it aligned more closely with my growing interest in technology. Having always been interested in computers, it became clear that Computer Science is not just a subject, but a field where problem-solving and creativity intersect. This realization, combined with my passion for video games, prompted me to change my focus to the domain of software engineering.
+During high school, I was initially drawn to accounting, finding satisfaction in its logical structure and problem-solving aspects. However, as I gained more exposure to Computer Science, I began to recognize its broader impact and realized that it aligned more closely with my passion for technology. A high school coding project, where I created a simple application, was the turning point for me, as it revealed the creative potential within programming. This shift, combined with my love for video games, ultimately led me to focus on software engineering, where innovation and creativity thrive together.
 
 ### Game Development and Creative Expression
 
-What excites me most about software engineering, especially within the context of game development, is the ability to create interactive, immersive experiences. For example, writing C# code in Unity allows me to build and shape virtual worlds, giving life to ideas that were once just abstract concepts in my mind. The process of developing games, from code design to building interactive environments, has opened up a world of creative expression that I find highly rewarding. This aspect makes software engineering particularly appealing for me.
+What excites me most about software engineering, particularly in game development, is the ability to create immersive, interactive experiences. Working with C# in Unity allows me to transform abstract ideas into dynamic virtual worlds. One of my most rewarding projects was developing a 2D quest game. Although challenging at first, I learned to integrate physics-based mechanics and interactive storytelling, deepening my understanding of game design principles. This process opened a new direction for me, one that continually inspires me to refine my skills and become a better developer.
 
 ### Future Aspirations in Software Engineering
 
