@@ -19,13 +19,13 @@ Eric Raymond's "[How to ask questions the smart way](http://www.catb.org/esr/faq
 
 #### Question
 
-A great example of a smart question is *[What is the "->" operator in C/C++?](https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c)*. In this question, the developer is surprised by the behavior of the --> sequence in C/C++ and asks about its functionality. The developer includes a concise code snippet illustrating the issue, specifying the environment where the code was run, and seeks clarification on where the behavior is defined in the C/C++ standards.
+A great example of a smart question is *[What is the "->" operator in C/C++?](https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c)*. In this question, the developer is surprised by the behavior of the `-->` sequence in C/C++ and asks about its functionality. The developer includes a concise code snippet illustrating the issue, specifying the environment where the code was run, and seeks clarification on where the behavior is defined in the C/C++ standards.
 
 They are puzzled about why this compiles and ask where in the C/C++ standard this syntax is defined. The user does not assume the problem is with C/C++, instead, they genuinely ask for clarification. This question exemplifies Raymond's principle of being specific and informative. The asker clearly shows what they have observed, provides context, and asks for help in understanding the behavior. Additionally, they don't jump to conclusions about what might be wrong, which allows the community to provide precise, well-informed responses.
 
 #### Outcome
 
-The community responded effectively, explaining that --> is parsed as two separate operators: -- (decrement) and >. The top-voted answer (with over 10K votes) explains how the C/C++ parser interprets this sequence, referencing the appropriate sections of the C++ standard. The detailed and thoughtful answers reflect the quality of the question, with several answers engaging in discussions about operator precedence and syntax in C/C++.
+The community responded effectively, explaining that `-->` is parsed as two separate operators: `--` (decrement) and `>`. The top-voted answer (with over 10K votes) explains how the C/C++ parser interprets this sequence, referencing the appropriate sections of the C++ standard. The detailed and thoughtful answers reflect the quality of the question, with several answers engaging in discussions about operator precedence and syntax in C/C++.
 
 ### A "Not So Smart" Question
 
