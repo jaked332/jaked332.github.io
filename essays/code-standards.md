@@ -10,7 +10,7 @@ labels:
   - Software Quality
 ---
 
-<img alt="Image" src="../img/eslint-logo.webp" width=500px>
+<img alt="Image" src="../img/eslint-logo.webp" width=250px>
 
 ### The Power of Coding Standards
 
