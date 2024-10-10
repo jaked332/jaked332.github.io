@@ -53,22 +53,28 @@ In contrast, to create a similar button in raw HTML and CSS, we need the followi
 
 Replicating what Bootstrap provides out of the box requires writing custom CSS. It's not just about the visual aspects--developers are also responsible for ensuring that these visual components remain consistent across multiple browsers when using raw CSS.
 
-Below is a side-by-side comparison, highlighting the additional effort needed to achieve the same outcome without Bootstrap.
+Below is a side-by-side comparison of the rendered buttons.
 
-<img alt="Bootstrap Comparison" src="../img/Bootstrap.png" width=200px>
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <div style="text-align: center;">
+    <img alt="Comparison" src="../img/Bootstrap.png" width=700px>
+  </div>
+</div>
 
 ### My Bootstrap 5 Experience
 
-I have found Bootstrap 5 incredibly helpful in WOD problems that involve "rebuilding" complex components of websites. One example where I found this framework useful is when I need a responsive navigation bar (i.e., navbar) that automatically collapses the menu when the screen size is too small, without requiring custom CSS. This framework has allowed me to focus on the important aspects of website building, such as the content that needs to be included. Below is a side-by-side comparison of an original [GoDaddy](https://www.godaddy.com/offers/domains/buy-domain) offers page and my Bootstrap 5 rebuild:
+I have found Bootstrap 5 incredibly helpful in WOD problems that involve "rebuilding" complex components of websites. One example where I found this framework useful is when I need a ready-to-use navigation bar (i.e., navbar) without requiring custom CSS. This framework has allowed me to focus on the important aspects of website building, such as the content that needs to be included.
+
+Below is a side-by-side comparison of an original [GoDaddy](https://www.godaddy.com/offers/domains/buy-domain) offers page and my Bootstrap 5 rebuild:
 
 <div style="display: flex; gap: 20px; justify-content: center;">
   <div style="text-align: center;">
     <p><strong>Original</strong></p>
-    <img src="../img/original.webp" alt="Original GoDaddy Website" width="200px">
+    <img src="../img/original.webp" alt="Original GoDaddy Website" width="400px">
   </div>
   <div style="text-align: center;">
     <p><strong>Rebuild</strong></p>
-    <img src="../img/rebuild.webp" alt="Bootstrap 5 Rebuild" width="200px">
+    <img src="../img/rebuild.webp" alt="Bootstrap 5 Rebuild" width="400px">
   </div>
 </div>
 
@@ -76,4 +82,4 @@ This rebuild process demonstrated the power of Bootstrap's flexibility.
 
 ### Conclusion
 
-Investing time in learning UI frameworks, such as Bootstrap 5, offers long-term benefits. By using a well-established framework, we can accelerate the web development process and create less error-prone UIs.
+Investing time in learning UI frameworks, such as Bootstrap 5, offers long-term benefits. By using a well-established framework, we can accelerate the web development process and create less error-prone UIs with more flexibility.
