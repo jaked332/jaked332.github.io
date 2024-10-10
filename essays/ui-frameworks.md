@@ -78,6 +78,7 @@ Below is a side-by-side comparison of an original [GoDaddy](https://www.godaddy.
   </div>
 </div>
 
+<br/>
 This rebuild process demonstrated the power of Bootstrap's flexibility.
 
 ### Conclusion
