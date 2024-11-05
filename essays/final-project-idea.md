@@ -25,43 +25,38 @@ InterviewSim is a mock interview scheduling platform specifically designed to se
 
 ## Mockup Page Ideas
 
-1. Home Page
+1. **Home Page:**
   A welcoming page that highlights the platform, with a navigation bar allowing users to log in or register.
 
-2. Dashboard
+2. **Dashboard:**
   A personalized dashboard for each user displaying upcoming and completed interview sessions. It allows users to flexibly switch between interviewer and interviewee roles, fostering peer-to-peer support.
 
-3. Scheduling View
+3. **Scheduling View:**
   A central scheduling interface with a layout that shows interview schedules and offers flexible filtering options (e.g., filter by date).
 
-4. Profile Page
+4. **Profile Page:**
   Each user has a profile page showcasing their skills, academic major, and preferred industries.
 
-5. Documentation Page
+5. **Documentation Page:**
   A page providing curated resources (static links) on interview preparation and best practices.
 
 ## Use Case Ideas
 
-1. Interview Practice for Students
-
+1. **Interview Practice for Students:**
   Students create an account, complete their profile with their major and coursework, and then either open up slots or register for available interview slots.
 
-2. Peer-to-Peer Collaborative Effort
-
+2. **Peer-to-Peer Collaborative Effort:**
   The platform allows for flexible role switching without requiring separate accounts, so peers can offer or receive help depending on their current needs.
 
 ## Beyond the Basic
 
-1. Curated Documentation
-
+1. **Curated Documentation:**
   The platform's documentation will be developed with feedback from UH Manoa instructors to ensure it provides useful content.
 
-2. Slot Limits for Fairness
-
+2. **Slot Limits for Fairness:**
   A limit on upcoming slots per user will be enforced to ensure fair access for all participants (e.g., 10 interviewer slots and 3 interviewee slots per user).
 
-3. Interview "Card" Details
-
+3. **Interview "Card" Details:**
   Each interview card will contain essential details, including the interview time, interviewer's name, and a URL to join the interview (e.g., [Zoom](https://www.zoom.com/) link).
 
 This is a project built using [Next.js](https://nextjs.org/), [React Bootstrap](https://react-bootstrap.netlify.app/), and [PostgreSQL](https://www.postgresql.org/). The platform will offer a friendly UI and robust functionality to help students become more interview-ready. This essay was written in collaboration with the team members listed above.
