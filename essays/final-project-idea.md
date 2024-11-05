@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Final Project Idea: InterviewReady @ UH Manoa
+title: "Final Project Idea: InterviewReady @ UH Manoa"
 date: 2024-11-4
 published: true
 labels:
