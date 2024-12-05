@@ -31,7 +31,7 @@ This approach prevents resource exhaustion and provides a consistent interface f
 
 ## Repository Pattern for User and Club Management
 
-Managing user and club records is another core function of Da Club. To ensure clean and maintainable code, it is essential to centralize and abstract database interactions into reusable functions. This is achieved using the Repository Pattern, which encapsulates the logic for creating, reading, updating, and deleting records in the PostgreSQL database.
+Managing user and club records is another core function of *Da Club*. To ensure clean and maintainable code, it is essential to centralize and abstract database interactions into reusable functions. This is achieved using the Repository Pattern, which encapsulates the logic for creating, reading, updating, and deleting records in the PostgreSQL database.
 
 Take one example from the database interactions utility ([dbActions.ts](https://github.com/ics-314-code-crew/daclub/blob/main/src/lib/dbActions.ts)):
 
