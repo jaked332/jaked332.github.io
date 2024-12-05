@@ -13,11 +13,11 @@ labels:
 
 Design patterns are key to creating scalable and maintainable code. They act like well-tested recipes, enabling developers to follow established behavioral rules that allow code to expand in scope and functionality without requiring major changes. In Next.js, these patterns seamlessly integrate with server-side rendering (SSR) and dynamic page management.
 
-In this essay, I will highlight some of the patterns that I am actively using in project "[Da Club](https://ics-314-code-crew.github.io/)," a centralized organization hub portal.
+In this essay, I will highlight some of the patterns I am actively using in an ICS 314 project, "[Da Club](https://ics-314-code-crew.github.io/)," a centralized hub for organizational management.
 
 ## Singleton Pattern for Global State Management
 
-In *Da Club*, I manage database connections using Prisma. By exporting a single `prisma` instance (Singleton pattern), I ensure that the application efficiently handles database interactions without creating multiple connections:
+In *Da Club*, I manage database connections using Prisma. By exporting a single `prisma` instance (Singleton Pattern), I ensure that the application efficiently handles database interactions without creating multiple connections:
 
 ```typescript
 export const prisma =
