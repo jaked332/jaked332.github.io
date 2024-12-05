@@ -29,9 +29,11 @@ export const prisma =
 
 This approach prevents resource exhaustion and provides a consistent interface for interacting with the database.
 
-## Factory Pattern for User and Club Management
+## Repository Pattern for User and Club Management
 
-I've also extensively worked with the Factory pattern to encapsulate object creation. Take one example from the Prisma client factory ([dbActions.ts](https://github.com/ics-314-code-crew/daclub/blob/main/src/lib/dbActions.ts)):
+Managing user and club records is another core function of Da Club. To ensure clean and maintainable code, it is essential to centralize and abstract database interactions into reusable functions. This is achieved using the Repository Pattern, which encapsulates the logic for creating, reading, updating, and deleting records in the PostgreSQL database.
+
+Take one example from the database interactions utility ([dbActions.ts](https://github.com/ics-314-code-crew/daclub/blob/main/src/lib/dbActions.ts)):
 
 ```typescript
 'use server';
@@ -58,8 +60,14 @@ export async function createUser({
 }
 ```
 
-The `createUser` method abstracts user creation, handling hashing and the create operation in a reusable piece.
+The `createUser` method demonstrates the Repository Pattern by providing a single, reusable utility for interacting with the database.
+
+## Observer Pattern in Next.js
+
+The "reactivity" of Next.js is an excellent example of the Observer Pattern, where objects (observers) are notified of state changes.
+
+With Next.js, components can dynamically fetch data on the server or client. When server-side data changes, the UI updates automatically during SSR, reflecting the latest state.
 
 ## Why Do Design Patterns Matter?
 
-Design patterns bring order to complexity, making applications more organized and easier to maintain. They enable logic encapsulation, centralized control, and resource optimization. In Next.js, these patterns are powerful tools for building robust and scalable applications.
+Design patterns simplify complexity, bringing organization and maintainability to applications. They facilitate logic encapsulation, centralized control, and resource optimization. In Next.js, these patterns serve as indispensable tools for creating robust and scalable applications.
