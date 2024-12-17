@@ -107,10 +107,14 @@ Outside of ICS 314, I used AI for tasks like preparing resumes and cover letters
 
 The main challenge was ensuring accuracy. At times, AI misunderstood the context of my work. A future improvement might be to have a course-specific AI model, trained on ICS data and made available to students. Such a tailored model could offer more context-aware guidance.
 
-## VI. Future Considerations
+## VI. Comparative Analysis
+
+Traditional software engineering education is often textbook-heavy and typically requires significant memorization, which can lead to a consistent but limited learning experience. In contrast, AI-enhanced approaches boost engagement and allow students to explore evolving technologies and tools in a more dynamic way. As a result, AI-assisted methods complement traditional teaching, ultimately creating a more efficient learning environment. I do not advocate discarding the traditional approach altogether or relying solely on AI without consulting documentation or structured textbooks. However, I strongly believe that embracing AI will enable us to progress more quickly and develop more innovative projects.
+
+## VII. Future Considerations
 
 As AI continues to evolve, I anticipate tools like Copilot, ChatGPT, and Gemini will become more context-aware and seamlessly integrated into educational environments. A "course-aware" AI tutor could provide personalized feedback, help students identify misconceptions, and track their progress over time. However, it's crucial that students maintain a healthy balance, using AI as a supportive tool rather than a crutch.
 
-## VII. Conclusion
+## VIII. Conclusion
 
 My experience with AI in ICS 314 reflects a forward-thinking educational approach. Rather than ignoring or marginalizing AI, the course encouraged thoughtful, critical engagement with these tools, mirroring the reality of modern software engineering. Moving forward, demonstrating effective use of AI tools like GitHub Copilot, ChatGPT, or Gemini in class could further enhance the learning experience. Ultimately, AI can serve as a powerful ally, helping students become more efficient and confident developers while still encouraging them to think independently and critically.
