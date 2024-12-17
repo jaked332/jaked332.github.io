@@ -10,12 +10,12 @@ labels:
 ---
 
 <img alt="Image" src="../img/ai.webp" width=250px>
-<hr/>
-(Generated using ChatGPT prompt: "Generate an appropriate picture for a technical essay with the title: Software Development in the Age of AI: A Reflection from ICS 314")
+
+The image above was generated using ChatGPT, given the prompt: "Generate an appropriate picture for a technical essay with the title: Software Development in the Age of AI: A Reflection from ICS 314"
 
 ## I. Introduction
 
-Artificial Intelligence (AI) has steadily integrated with the educational landscape, influencing how students access information, refine ideas, and solve complex problems. In software engineering courses, AI tools assist with tasks ranging from debugging and code generation to clarifying theoretical concepts. In ICS 314, my experience reflected this trend: I frequently turned to AI tools—primarily ChatGPT, and at times Microsoft Copilot through Bing—to enhance my learning. These tools served as dynamic assistants, reviewing my essays for grammar, guiding me through debugging challenges, and clarifying syntactical questions. Although both ChatGPT and Copilot had their merits, I ultimately preferred ChatGPT for its more straightforward and reliable responses.
+Artificial Intelligence (AI) has gradually become embedded in the educational landscape, influencing how students access information, refine ideas, and solve complex problems. In software engineering courses, AI tools assist with tasks ranging from debugging and code generation to clarifying theoretical concepts. In ICS 314, my experience reflected this trend: I frequently turned to AI tools—primarily <a href="https://chatgpt.com/" target="_blank">ChatGPT</a>, and at times <a href="https://copilot.microsoft.com/onboarding" target="_blank">Microsoft Copilot</a> through Bing—to enhance my learning. These tools served as dynamic assistants, reviewing my essays for grammar, guiding me through debugging challenges, and clarifying syntactical questions. Although both ChatGPT and Copilot had their merits, I ultimately preferred ChatGPT for its more straightforward and reliable responses.
 
 ## II. Personal Experience with AI
 
@@ -113,4 +113,4 @@ As AI continues to evolve, I anticipate tools like Copilot, ChatGPT, and Gemini 
 
 ## VII. Conclusion
 
-My experience with AI in ICS 314 reflects a forward-thinking educational approach. Rather than ignoring or marginalizing AI, the course encouraged thoughtful, critical engagement with these tools—mirroring the reality of modern software engineering. Moving forward, demonstrating effective use of AI tools like GitHub Copilot, ChatGPT, or Gemini in class could further enhance the learning experience. Ultimately, AI can serve as a powerful ally, helping students become more efficient and confident developers while still encouraging them to think independently and critically.
+My experience with AI in ICS 314 reflects a forward-thinking educational approach. Rather than ignoring or marginalizing AI, the course encouraged thoughtful, critical engagement with these tools, mirroring the reality of modern software engineering. Moving forward, demonstrating effective use of AI tools like GitHub Copilot, ChatGPT, or Gemini in class could further enhance the learning experience. Ultimately, AI can serve as a powerful ally, helping students become more efficient and confident developers while still encouraging them to think independently and critically.
