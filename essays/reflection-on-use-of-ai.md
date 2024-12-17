@@ -55,9 +55,9 @@ Below, I detail my usage (or non-usage) of AI for various course elements, share
 
    ChatGPT excelled at breaking down complex topics into digestible parts. I used it to learn various aspects of the course, such as TypeScript tips, specific npm/npx commands, and the fundamentals of server-side rendering.
 
-7. **Answering a Question in Class or Discord**
+7. **Answering a Question in Class or on Discord**
 
-   I did not use ChatGPT for questions in class or on Discord. Most of these questions were logistical (due dates, missing links) and could be answered easily by peers or instructors.
+    I did not use ChatGPT to answer questions in class or on Discord. Most of the questions I received were asked during the final project period and were logistical in nature (due dates, missing links) and could be answered directly. Therefore, I did not see a need for AI in those situations.
 
 8. **Asking or Answering a "Smart Question"**
 
