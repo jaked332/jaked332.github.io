@@ -10,13 +10,14 @@ labels:
 ---
 
 <img alt="Image" src="../img/ai.webp" width=250px>
+<hr/>
 (Generated using ChatGPT prompt: "Generate an appropriate picture for a technical essay with the title: Software Development in the Age of AI: A Reflection from ICS 314")
 
-## Introduction
+## I. Introduction
 
 Artificial Intelligence (AI) has steadily integrated with the educational landscape, influencing how students access information, refine ideas, and solve complex problems. In software engineering courses, AI tools assist with tasks ranging from debugging and code generation to clarifying theoretical concepts. In ICS 314, my experience reflected this trend: I frequently turned to AI tools—primarily ChatGPT, and at times Microsoft Copilot through Bing—to enhance my learning. These tools served as dynamic assistants, reviewing my essays for grammar, guiding me through debugging challenges, and clarifying syntactical questions. Although both ChatGPT and Copilot had their merits, I ultimately preferred ChatGPT for its more straightforward and reliable responses.
 
-## Personal Experience with AI
+## II. Personal Experience with AI
 
 Below, I detail my usage (or non-usage) of AI for various course elements, share some example prompts, and reflect on the outcomes.
 
@@ -94,22 +95,22 @@ Below, I detail my usage (or non-usage) of AI for various course elements, share
 
     I occasionally asked ChatGPT to quiz me after completing certain readings. This interview-style approach helped me reinforce concepts and better prepare for both the course and future job interviews.
 
-## Impact on Learning and Understanding
+## III. Impact on Learning and Understanding
 
 Integrating AI into my learning process provided a balanced mix of guidance and personal effort. On the one hand, I accessed tutorials and documentation more quickly, freeing time to engage with more substantial challenges. On the other hand, occasional inaccuracies—like ChatGPT's confusion over underscore functions—reminded me to remain skeptical and critical. Overall, AI enriched my learning experience, reinforcing foundational knowledge and accelerating my understanding.
 
-## Practical Applications
+## IV. Practical Applications
 
 Outside of ICS 314, I used AI for tasks like preparing resumes and cover letters. For example, I might start by describing my skills and passions in natural language and then prompt AI to generate a resume tailored for a specific job.
 
-## Challenges and Opportunities
+## V. Challenges and Opportunities
 
 The main challenge was ensuring accuracy. At times, AI misunderstood the context of my work. A future improvement might be to have a course-specific AI model, trained on ICS data and made available to students. Such a tailored model could offer more context-aware guidance.
 
-## Future Considerations
+## VI. Future Considerations
 
 As AI continues to evolve, I anticipate tools like Copilot, ChatGPT, and Gemini will become more context-aware and seamlessly integrated into educational environments. A "course-aware" AI tutor could provide personalized feedback, help students identify misconceptions, and track their progress over time. However, it's crucial that students maintain a healthy balance, using AI as a supportive tool rather than a crutch.
 
-## Conclusion
+## VII. Conclusion
 
 My experience with AI in ICS 314 reflects a forward-thinking educational approach. Rather than ignoring or marginalizing AI, the course encouraged thoughtful, critical engagement with these tools—mirroring the reality of modern software engineering. Moving forward, demonstrating effective use of AI tools like GitHub Copilot, ChatGPT, or Gemini in class could further enhance the learning experience. Ultimately, AI can serve as a powerful ally, helping students become more efficient and confident developers while still encouraging them to think independently and critically.
