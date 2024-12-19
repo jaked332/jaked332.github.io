@@ -9,7 +9,7 @@ labels:
   - Design Fundamentals
 ---
 
-<img alt="Image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240909150147/Software-Product.webp" width=250px>
+<img alt="Image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240909150147/Software-Product.webp" width=400px>
 
 ## Open Source Software Development
 
