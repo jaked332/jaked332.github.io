@@ -9,7 +9,7 @@ labels:
   - Collaboration
 ---
 
-<img alt="Image" src="https://cdn.prod.website-files.com/62fcfcf2e1a4c21ed18b80e6/64f9dc39ef48475f8db832ab_agile_methodology_zybm.png" width=400px>
+<img alt="Image" src="https://www.icagile.com/media/resources/articles/agile-methodologies-article-header.png" width=400px>
 
 ## Overview
 
