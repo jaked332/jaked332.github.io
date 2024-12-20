@@ -40,7 +40,7 @@ As a core member, I embraced various roles to ensure the success and delivery of
 
 Venturing outside my comfort zone, I also contributed to:
 
-- **Page Layouts**: I wrote consistent CSS and used React components to ensure a consistent UI/UX across all pages. 
+- **Page Layouts**: Developed consistent CSS and used React components to ensure a consistent UI/UX across all pages. 
 - **GitHub Actions**: Worked on enabling the execution of Playwright tests whenever code was merged into the main branch.
 - **Scripting**: Wrote a Python script to process real club data from a UHM spreadsheet to build a JSON file for database ingestion. Contributed to the ingestion of 100+ real clubs with full descriptions, image galleries, and more into the database.
 
@@ -48,4 +48,4 @@ Venturing outside my comfort zone, I also contributed to:
 
 Da Club not only showcases technical achievement but also highlights the importance of addressing real-world challenges through thoughtful design and development.
 
-Be sure to check out [Da Club](https://daclub-gold.vercel.app/about)!
+Be sure to check out [Da Club](https://daclub-gold.vercel.app/about). The code is open-source and can be accessed at [https://github.com/ics-314-code-crew/daclub](https://github.com/ics-314-code-crew/daclub).

@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-<img alt="Bootstrap Logo" src="https://tsh.io/wp-content/uploads/fly-images/17184/why-use-typescript-items2_-800x497.png" width=250px>
+<img alt="Bootstrap Logo" src="https://tsh.io/wp-content/uploads/fly-images/17184/why-use-typescript-items2_-800x497.png" width=400px>
 
 ## Overview
 
