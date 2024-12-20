@@ -2,7 +2,6 @@
 layout: essay
 type: essay
 title: "My Journey in Software Engineering and Future Interests"
-# All dates must be YYYY-MM-DD format!
 date: 2024-09-10
 published: true
 labels:

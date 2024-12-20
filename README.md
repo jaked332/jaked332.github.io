@@ -1,3 +1,3 @@
-# Professional Portfolio
+# Jake Dickinson's Professional Portfolio
 
-For details on this professional portfolio, please see https://techfolios.github.io.
+For details on the base template, please see https://techfolios.github.io.

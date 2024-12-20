@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jake Dickinson",
     "label": "Student",
-    "picture": "img/20231112_112003-EDIT.jpg",
+    "picture": "img/ProfileImage.jpg",
     "email": "jaked3@hawaii.edu",
     "phone": "",
     "website": "https://jaked332.github.io",
@@ -23,10 +23,10 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Python", "Java", "Javascript", "TypeScript" ]
+      "keywords": [ "C++", "Python", "Java", "Javascript", "TypeScript", "React", "Next.js" ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Toolset/OS",
       "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code", "Eclipse" ]
     }
   ],

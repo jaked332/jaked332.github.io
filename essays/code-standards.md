@@ -2,7 +2,6 @@
 layout: essay
 type: essay
 title: "Coding Standards: More Than Just Rules"
-# All dates must be YYYY-MM-DD format!
 date: 2024-09-25
 published: true
 labels:
