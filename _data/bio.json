@@ -26,8 +26,8 @@
       "keywords": [ "C++", "Python", "Java", "Javascript", "TypeScript", "React", "Next.js" ]
     },
     {
-      "name": "Toolset/OS",
-      "keywords": [ "MacOS", "Windows", "Git/GitHub", "Visual Studio Code", "Eclipse" ]
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Windows", "Git", "GitHub Actions", "Vercel", "Visual Studio Code", "Eclipse" ]
     }
   ],
   "education": [

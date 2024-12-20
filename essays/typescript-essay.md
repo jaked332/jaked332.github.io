@@ -9,6 +9,8 @@ labels:
   - Learning
 ---
 
+<img alt="Bootstrap Logo" src="https://tsh.io/wp-content/uploads/fly-images/17184/why-use-typescript-items2_-800x497.png" width=250px>
+
 ## Overview
 
 JavaScript was the first language I learned, and it helped me understand the basics of programming, particularly for creating interactive elements for websites. Over the past couple of weeks, I've started learning TypeScript, a superset of JavaScript that adds static typing. This capability enhances error detection and makes the code more readable.

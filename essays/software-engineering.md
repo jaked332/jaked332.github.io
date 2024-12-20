@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-<img alt="Image" src="../img/Unity-Logo.png" width=500px>
+<img alt="Image" src="../img/Unity-Logo.png" width=400px>
 
 ### Before Majoring in Computer Science
 
@@ -17,7 +17,7 @@ During high school, I was initially drawn to accounting, finding satisfaction in
 
 ### Game Development and Creative Expression
 
-What excites me most about software engineering, particularly in game development, is the ability to create immersive, interactive experiences. Working with C# in Unity allows me to transform abstract ideas into dynamic virtual worlds. One of my most rewarding projects was developing a 2D quest game. Although challenging at first, I learned to integrate physics-based mechanics and interactive storytelling, deepening my understanding of game design principles. This process opened a new direction for me, one that continually inspires me to refine my skills and become a better developer.
+What excites me most about software engineering, particularly in game development, is the ability to create immersive, interactive experiences. Working with C# in <a href="https://unity.com/" target="_blank">Unity</a> allows me to transform abstract ideas into dynamic virtual worlds. One of my most rewarding projects was developing a 2D quest game. Although challenging at first, I learned to integrate physics-based mechanics and interactive storytelling, deepening my understanding of game design principles. This process opened a new direction for me, one that continually inspires me to refine my skills and become a better developer.
 
 ### Future Aspirations in Software Engineering
 
