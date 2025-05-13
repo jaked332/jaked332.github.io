@@ -9,7 +9,7 @@ labels:
   - Next.js
 ---
 
-<img alt="Image" src="https://pineapple-spire.github.io/images/user-guide/fc-page.png" width=300px>
+<img alt="Image" src="../img//fc-page.png" width=300px>
 
 ## Introduction
 
