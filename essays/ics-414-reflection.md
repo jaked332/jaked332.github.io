@@ -9,7 +9,7 @@ labels:
   - Next.js
 ---
 
-<img alt="Image" src="../img/fc-page.png" width=300px>
+<img alt="Image" src="https://previews.123rf.com/images/rollingcamera/rollingcamera2003/rollingcamera200303332/143283675-software-engineer-animated-typography.jpg" width=500px>
 
 ## Introduction
 
