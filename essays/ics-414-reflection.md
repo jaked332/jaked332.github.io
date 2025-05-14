@@ -7,8 +7,9 @@ published: true
 labels:
   - Project Management
   - Next.js
-  - React
 ---
+
+<img alt="Image" src="../img/fc-page.png" width=300px>
 
 ## Introduction
 
@@ -29,3 +30,5 @@ A cornerstone feature that I owned was the ability to save several versions of t
 ## Conclusion
 
 ICS 414 was a leap from conceptual prototypes in ICS 314 to full-fledged, user-centric web application. I emerged with more than polished React components and TypeScript modules; I gained a playbook for professional software delivery: issue-driven development, code review, end-to-end ownership, and continuous performance tuning. As I prepare to graduate next year, I feel grounded by the confidence that I've built, tested, and shipped a production systems that a real company can depend on. 
+
+You can try out the application at <a href="https://pineapple-spire-lemon.vercel.app/" target="_blank">https://pineapple-spire-lemon.vercel.app</a> and view the codebase at <a href="https://github.com/pineapple-spire/pineapple-spire" target="_blank">https://github.com/pineapple-spire/pineapple-spire</a>.
