@@ -7,6 +7,7 @@ published: true
 labels:
   - Project Management
   - Next.js
+  - React
 ---
 
 ## Introduction
