@@ -6,7 +6,7 @@
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color:    #2A9D8F;      /* deep teal */
-  --tf-pill-bg:       #E9C46A;      /* warm mustard */
+  --tf-pill-bg:       #917633;      /* warm mustard */
   --tf-icon-fill:     #264653;      /* charcoal teal */
   --tf-icon-hover:    #2A9D8F;      /* same deep teal as links */
   --tf-page-bg-color:      #F0EFEB; /* off-white parchment */
@@ -16,15 +16,18 @@
 
 .tf-social {
   display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.5em;
-  vertical-align: -.1em;
   width: 1.5em;
-  transition: 0.2s;
+  height: 1.5em;
+  vertical-align: -0.1em;
+  fill: var(--tf-icon-fill);
+  cursor: pointer;
+  transition: transform 0.2s ease, fill 0.2s ease;
 }
 
-.tf-social:hover {
+.tf-social:hover,
+.tf-social:focus {
   fill: var(--tf-icon-hover);
+  transform: scale(1.1);
 }
 
 a {
