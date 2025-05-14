@@ -3,19 +3,17 @@
 /* Use Open Sans as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --bs-link-color:    #2A9D8F;      /* deep teal */
+  --tf-pill-bg:       #E9C46A;      /* warm mustard */
+  --tf-icon-fill:     #264653;      /* charcoal teal */
+  --tf-icon-hover:    #2A9D8F;      /* same deep teal as links */
+  --tf-page-bg-color:      #F0EFEB; /* off-white parchment */
+  --tf-footer-bg-color:    #EDE6DB; /* slightly darker parchment */
+  --tf-projects-bg-color:  #F9F9F9; /* ultra-light gray */
 }
 
-/* Format social media icons */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
@@ -30,11 +28,30 @@
 }
 
 a {
+  color: var(--bs-link-color);
   text-decoration: none;
+  background-image: linear-gradient(var(--bs-link-color), var(--bs-link-color));
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  background-position: 0 100%;
+  transition: color 0.2s ease, background-size 0.3s ease;
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+a:hover,
+a:focus {
+  color: var(--tf-icon-hover);
+  background-size: 100% 2px;
+}
+
 .card-footer {
-  background-color: var(--bs-white);
-  border-top: none;
+  background-color: var(--tf-footer-bg-color);     /* parchment tone */
+  border-top: 2px solid var(--bs-link-color);      /* teal accent */
+  padding: 1rem;
+  transition: background-color 0.3s ease,
+              transform 0.2s ease;
+}
+
+.card-footer:hover {
+  background-color: var(--tf-page-bg-color);      /* lighten on hover */
+  transform: translateY(-2px);                    /* slight lift */
 }
