@@ -1,9 +1,6 @@
-<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
-  <div class="container-fluid">
-    <div class="ms-auto">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
-      </ul>
-    </div>
+<footer class="site-footer">
+  <div class="site-shell footer-inner">
+    <div><a class="wordmark" href="{{ '/' | relative_url }}">Jake Dickinson<span class="wordmark-dot" aria-hidden="true">.</span></a><p>Computer science graduate &middot; Honolulu, Hawaii</p></div>
+    <div class="footer-links"><a href="mailto:{{ site.data.bio.basics.email }}">Email</a>{% for profile in site.data.bio.basics.profiles %}<a href="{{ profile.url }}">{{ profile.network }}</a>{% endfor %}<a href="https://techfolios.github.io" class="template-credit">Built with Techfolios</a></div>
   </div>
 </footer>

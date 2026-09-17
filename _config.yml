@@ -1,6 +1,7 @@
 # REQUIRED CHANGES
 # Edit next line to provide your own name.
 title: Jake Dickinson | Professional Portfolio
+description: "Jake Dickinson, computer science graduate in Honolulu, Hawaii. Full-stack web applications, selected projects, and notes on software development."
 # Edit next line, replacing 'techfolios' with your github username
 url: "https://jaked332.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
@@ -25,6 +26,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - scripts
 include:
   - .nojekyll
   - _data

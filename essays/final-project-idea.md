@@ -9,8 +9,6 @@ labels:
   - Next.js
 ---
 
-<img alt="Image" src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png" width=250px>
-
 ## Overview
 
 Many students at UH Manoa, as well as other local community members, lack sufficient opportunities for structured interview practice and documentation. This lack of preparation can hinder students' confidence and performance during actual job interviews.

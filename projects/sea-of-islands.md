@@ -8,7 +8,7 @@ published: true
 labels:
   - Python
   - Graph Algorithms
-summary: "Utilizing graph theory to optimize island resource distribution and leader knowledge sharing through pathfinding algorithms and prioritization techniques."
+summary: "Graph algorithms for planning travel routes and sharing resources and knowledge between islands."
 ---
 
 <img alt="Image" src="../img/Islands.png" width=500px>
@@ -23,7 +23,7 @@ To address the need for population-weighted paths, I modified Dijkstra's algorit
 
 ### Knowledge Sharing Among Leaders
 
-In addition to shortest paths, I developed an algorithm for knowledge sharing that balanced multiple factors—distance, recency of visits, and skill gaps. The algorithm computed a score for each island based on these factors, using graph traversal to decide the most optimal path for a leader to follow. This approach ensured leaders could share knowledge efficiently while prioritizing islands that hadn't been visited recently or needed new skills, demonstrating the versatility of graph algorithms in complex scenarios.
+In addition to shortest paths, I developed an algorithm for knowledge sharing that balanced distance, recency of visits, and skill gaps. The algorithm computed a score for each island based on these factors, using graph traversal to decide the most optimal path for a leader to follow. This approach ensured leaders could share knowledge efficiently while prioritizing islands that hadn't been visited recently or needed new skills, demonstrating the versatility of graph algorithms in complex scenarios.
 
 ### From Theory to Practice
 

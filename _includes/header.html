@@ -1,18 +1,10 @@
-<header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
-  <div class="container-fluid" style="padding: 0 20px;">
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
-    <div class="ms-auto">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<header class="site-header">
+  <nav class="site-shell navigation" aria-label="Main navigation">
+    <a class="wordmark" href="{{ '/' | relative_url }}">Jake Dickinson<span class="wordmark-dot" aria-hidden="true">.</span></a>
+    <ul class="nav-links">
+      <li><a href="{{ '/projects/' | relative_url }}" {% if page.type == 'project' or page.url == '/projects/' %}aria-current="page"{% endif %}>Projects</a></li>
+      <li><a href="{{ '/essays/' | relative_url }}" {% if page.type == 'essay' or page.url == '/essays/' %}aria-current="page"{% endif %}>Essays</a></li>
+      <li><a href="{{ '/resume.html' | relative_url }}" {% if page.url == '/resume.html' %}aria-current="page"{% endif %}>Resume</a></li>
+    </ul>
+  </nav>
 </header>

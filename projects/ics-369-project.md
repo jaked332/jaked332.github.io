@@ -6,9 +6,9 @@ title: "Flower of Hope"
 date: 2023
 published: true
 labels:
-  - C Sharp
+  - C#
   - Unity
-summary: "Developing Flower of Hope to bring a magical world to life through Unity, mastering object interaction, physics, and immersive 2D game aesthetics."
+summary: "A 2D adventure game built in Unity, with interactive objects, physics, and scene transitions."
 ---
 
 <img alt="Image" src="../img/ICS-369-1.jpg" width=500px>

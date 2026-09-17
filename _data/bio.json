@@ -1,77 +1,185 @@
 {
   "basics": {
     "name": "Jake Dickinson",
-    "label": "Student",
-    "picture": "img/ProfileImage.jpg",
-    "email": "jaked3@hawaii.edu",
-    "phone": "",
+    "label": "B.S. in Computer Science",
+    "picture": "/img/ProfileImage.jpg",
+    "email": "jakedickinson5@gmail.com",
     "website": "https://jaked332.github.io",
-    "summary": "I am currently pursuing a Bachelor of Science in Computer Science at the Department of Information and Computer Sciences at the University of Hawaii, Manoa. I plan to graduate in Spring 2026, and I have a strong interest in game development.",
-    "location": { "address": "", "postalCode": "96814", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I'm a computer science graduate who builds and deploys full-stack web applications. I enjoy turning complex problems into practical tools, from intuitive interfaces to reliable backend systems.",
+    "location": {
+      "city": "Honolulu",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "jaked332", "url": "https://github.com/jaked332" },
-      { "network": "linkedin", "username": "jaketdickinson", "url": "https://www.linkedin.com/in/jaketdickinson/" }
+      {
+        "network": "GitHub",
+        "username": "jaked332",
+        "url": "https://github.com/jaked332"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jaketdickinson",
+        "url": "https://www.linkedin.com/in/jaketdickinson/"
+      }
     ]
   },
-  "interests": [
-    { "name": "Interactive Media" },
-    { "name": "Web Design" },
-    { "name": "Game Design" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C++", "Python", "Java", "Javascript", "TypeScript", "React", "Next.js" ]
+      "name": "Languages",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "C",
+        "C#",
+        "SQL",
+        "HTML/CSS"
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Git", "GitHub Actions", "Vercel", "Visual Studio Code", "Eclipse" ]
+      "name": "Frameworks & data",
+      "keywords": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma"
+      ]
+    },
+    {
+      "name": "Tools & deployment",
+      "keywords": [
+        "GitHub Actions",
+        "Vercel",
+        "Visual Studio Code",
+        "Unity"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Manoa, HI",
-      "area": "Computer Science",
-      "studyType": "B.S.",
-      "startDate": "2020",
-      "endDate": "Present",
+      "institution": "University of Hawaii at Mānoa",
+      "degree": "Bachelor of Science in Computer Science",
+      "graduation": "May 2026",
       "courses": [
+        "Software Engineering",
+        "Algorithms",
+        "Database Systems",
+        "Data Networks",
+        "Design for Mobile Devices",
+        "Game Design",
+        "Virtual & Augmented Reality Programming",
+        "Discrete Mathematics",
+        "Operating Systems"
       ]
     }
   ],
-  "involvement": [
+  "work": [
     {
-      "company": "Esports Arena Summer Camp",
-      "position": "Participant",
-      "website": "https://manoa.hawaii.edu",
-      "startDate": "2024",
-      "endDate": "2024",
-      "summary": "",
+      "company": "Interstel Technologies",
+      "position": "Software Engineer Intern, Gaming Division",
+      "location": "Honolulu, HI",
+      "dates": "June 2026 to July 2026",
       "highlights": [
-        "Gained hands-on experience in technical skills such as configuring gaming PCs.",
-        "Engaged in a wide range of team-building exercises, including strategy-based games and collaborative problem-solving activities.",
-        "Competed in various esports tournaments, showcasing skills in a competitive gaming environment, while learning about communication and teamwork."
+        "Rebuilt cockpit UI with separate simulation, shared state, input, and rendering layers to keep panels synchronized and prevent direct input-driven changes to game state.",
+        "Converted static buttons into more than 10 interactive cockpit panels covering navigation, combat, engineering, strategic, and security systems for a recreation of Star Fleet II Deluxe.",
+        "Implemented shields, hyperspace travel, boarding, surrender, and interrogation mechanics based on the game manual, with behavioral tests and a headless rendering harness."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pineapple-Spire Financial Modeling Portal",
+      "context": "Client project with Spire",
+      "year": "2025",
+      "url": "/projects/pineapple-spire.html",
+      "stack": "TypeScript, Next.js, React, PostgreSQL, Prisma, Vercel",
+      "highlights": [
+        "Worked with a local firm on an eight-person team to turn layered Excel financial models into a web portal, matching calculations to the cent against the original spreadsheets.",
+        "Led versioned stress testing: designed schemas, built Prisma-backed API endpoints, and created an interface for saving and reloading models, with memoization to keep projections responsive."
       ]
     },
     {
-      "company": "United States Tennis Association",
-      "position": "Tennis Player",
-      "website": "https://www.usta.com/en/home.html",
-      "startDate": "2015",
-      "endDate": "2020",
-      "summary": "",
+      "name": "Da Club",
+      "context": "Club discovery portal for UH Mānoa",
+      "year": "2024",
+      "url": "/projects/ics-314-project.html",
+      "stack": "Next.js, React, Prisma, GitHub Actions, Playwright",
       "highlights": [
-        "Competed in USTA events, demonstrating commitment through consistent training and match participation.",
-        "Developed skills in strategy, endurance, and sportsmanship, while working closely with coaches to improve technical aspects of the game.",
-        "Played both singles and doubles, contributing to team success with a competitive spirit through participation in several tournaments."
+        "Built search APIs for clubs by title and interests across a database of more than 100 organizations, and wrote a Python script to turn university spreadsheet data into JSON for ingestion.",
+        "Set up GitHub Actions to run Playwright tests on merges to main, and contributed role-based access logic and shared React components."
+      ]
+    },
+    {
+      "name": "Identifying Influential Users",
+      "context": "Graph analysis tool",
+      "year": "2024",
+      "url": "/projects/social-networks.html",
+      "stack": "Python, NetworkX",
+      "highlights": [
+        "Used graph traversal and dynamic filtering to identify influential users in social network data, with visualizations of centrality and community structure."
+      ]
+    },
+    {
+      "name": "Flower of Hope",
+      "context": "2D adventure game",
+      "year": "2023",
+      "url": "/projects/ics-369-project.html",
+      "stack": "C#, Unity",
+      "highlights": [
+        "Built object interaction, physics, and scene transitions in Unity, refining level design and game feel through playtesting."
       ]
     }
   ],
-  "references": [
+  "certificates": [
     {
-      "name": "Available Upon Request"
+      "name": "AI for Data Analysis",
+      "issuer": "Google",
+      "date": "September 2026",
+      "id": "6K6OOEYZ5FOF"
+    },
+    {
+      "name": "AI for App Building",
+      "issuer": "Google",
+      "date": "September 2026",
+      "id": "L35R40NDIXV4"
+    },
+    {
+      "name": "AI for Content Creation",
+      "issuer": "Google",
+      "date": "September 2026",
+      "id": "CY7OQLVZFA3S"
+    },
+    {
+      "name": "AI for Writing and Communicating",
+      "issuer": "Google",
+      "date": "September 2026",
+      "id": "H9NE55VXXIPB"
+    },
+    {
+      "name": "AI for Research and Insights",
+      "issuer": "Google",
+      "date": "September 2026",
+      "id": "XYEVIPKJ59J6"
+    },
+    {
+      "name": "AI for App Deployment",
+      "issuer": "Google",
+      "date": "September 2026",
+      "id": "JF2HE1KX01ND"
+    },
+    {
+      "name": "AI for Brainstorming and Planning",
+      "issuer": "Google",
+      "date": "August 2026",
+      "id": "WXY6BW7KXGEN"
+    },
+    {
+      "name": "AI Fundamentals",
+      "issuer": "Google",
+      "date": "August 2026",
+      "id": "HLAOYXEUM243"
     }
   ]
 }

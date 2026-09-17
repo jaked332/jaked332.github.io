@@ -1,23 +1,10 @@
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}" class="img-fluid rounded-start" alt="Project Image">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
-        <p class="card-text">{{ include.page.summary }}</p>
-        <p>
-          {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-          {% endfor %}
-        </p>
-        {% if include.page.projecturl %}
-        <a href="{{ include.page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
-        {% else %}
-        <a href="{{ site.baseurl }}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
-        {% endif %}
-      </div>
-    </div>
+<article class="project-card">
+  <a class="project-image" href="{{ include.project.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ include.project.image | relative_url }}" alt="" loading="lazy" width="640" height="360"></a>
+  <div class="project-body">
+    <div class="card-meta"><span>Project</span><span>{{ include.project.date }}</span></div>
+    <h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a></h3>
+    <p>{{ include.project.summary }}</p>
+    <ul class="tags" aria-label="Technologies">{% for label in include.project.labels %}<li>{{ label }}</li>{% endfor %}</ul>
+    <a class="text-link" href="{% if include.project.projecturl %}{{ include.project.projecturl }}{% else %}{{ include.project.url | relative_url }}{% endif %}">{% if include.project.projecturl %}Visit project{% else %}View project{% endif %}<span class="visually-hidden">: {{ include.project.title }}</span> <span aria-hidden="true">↗</span></a>
   </div>
-</div>
+</article>

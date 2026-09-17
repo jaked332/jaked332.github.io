@@ -9,7 +9,7 @@ labels:
   - Next.js
   - Prisma
   - Vercel
-summary: "A central club management portal for empowering students to get involved at UH Manoa."
+summary: "A club discovery and management portal for UH Mānoa, with search across more than 100 student organizations."
 ---
 
 <img alt="Image" src="../img/search.png" width=500px>

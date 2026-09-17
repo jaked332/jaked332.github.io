@@ -1,33 +1,10 @@
-<div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
-  <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-4 text-start">Projects</h1>
-      </div>
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "item", "item.draft != true" | sort: "date" | reverse %}
+<section class="section projects-section" id="projects" aria-labelledby="projects-title">
+  <div class="site-shell">
+    <div class="section-heading"><div><p class="eyebrow">Selected work</p>{% if include.limit %}<h2 id="projects-title">Projects</h2>{% else %}<h1 id="projects-title">Projects</h1>{% endif %}</div><p>Web applications, games, and graph algorithms.</p></div>
+    <div class="project-grid">
+      {% for project in project_pages limit:include.limit %}{% include projects/project-card.html project=project %}{% endfor %}
     </div>
-
-    <div class="vstack gap-3">
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-      {% for page in project_pages %}
-        {% unless page.draft %}
-          {% include projects/project-card.html page=page %}
-        {% endunless %}
-        {% if forloop.index == include.limit %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    {% assign not_draft = 0 %}
-      {% for page in project_pages %}
-      {% unless page.draft %}
-        {% assign not_draft = not_draft | plus: 1 %}
-      {% endunless %}
-    {% endfor %}
-
-    {% if not_draft > include.limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/projects/">See all {{ not_draft }} projects</a></p>
-    {% endif %}
-
+    {% if include.limit and project_pages.size > include.limit %}<a class="section-link" href="{{ '/projects/' | relative_url }}">View all {{ project_pages.size }} projects <span aria-hidden="true">↗</span></a>{% endif %}
   </div>
-</div>
+</section>

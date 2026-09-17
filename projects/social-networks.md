@@ -8,7 +8,7 @@ published: true
 labels:
   - Python
   - NetworkX
-summary: "Leveraging graph theory to identify and visualize influential users in social media networks through dynamic filtering and graph traversal."
+summary: "A Python tool for finding influential users in social networks through graph traversal, filtering, and visualization."
 ---
 
 <img alt="Image" src="../img/Graph-1.png" width=500px>

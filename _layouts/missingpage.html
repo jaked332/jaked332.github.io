@@ -1,30 +1,9 @@
 ---
-layout: default
+layout: home
 ---
-
-{% include header.html %}
-
-<div class="py-3 py-md-4 py-lg-5">
-  <div class="container">
-    <h1 class="display-4">Page Not Found</h1>
-    <p>Perhaps you were looking for one of the following:</p>
-
-    <h3>Essays</h3>
-    <ul>
-      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-      {% for page in essay_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <h3>Projects</h3>
-    <ul>
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-      {% for page in project_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="site-shell error-page">
+  <p class="eyebrow">404</p>
+  <h1>Page not found</h1>
+  <p>This address doesn't lead to a page. You can start again from the home page or explore my work.</p>
+  <div class="hero-actions"><a class="button button-primary" href="{{ '/' | relative_url }}">Back home</a><a class="button button-secondary" href="{{ '/projects/' | relative_url }}">Explore projects</a></div>
 </div>
-
-{% include footer.html %}

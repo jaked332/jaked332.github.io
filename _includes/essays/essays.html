@@ -1,33 +1,8 @@
-<div style="background-color: var(--bs-white)" class="bg-gradient py-3" id="essays">
-  <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-4 text-start">Essays</h1>
-      </div>
-    </div>
-
-    <div class="row g-3">
-      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-      {% for page in essay_pages %}
-        {% unless page.draft %}
-          {% include essays/essay-card.html page=page %}
-        {% endunless %}
-        {% if forloop.index == include.limit %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    {% assign not_draft = 0 %}
-      {% for page in essay_pages %}
-      {% unless page.draft %}
-        {% assign not_draft = not_draft | plus: 1 %}
-      {% endunless %}
-    {% endfor %}
-
-    {% if not_draft > include.limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/essays/">See all {{ not_draft }} essays</a></p>
-    {% endif %}
-
+{% assign essay_pages = site.pages | where: "type", "essay" | where_exp: "item", "item.draft != true" | sort: "date" | reverse %}
+<section class="section essays-section" id="essays" aria-labelledby="essays-title">
+  <div class="site-shell">
+    <div class="section-heading"><div><p class="eyebrow">Notes & reflections</p>{% if include.limit %}<h2 id="essays-title">Essays</h2>{% else %}<h1 id="essays-title">Essays</h1>{% endif %}</div><p>Writing from my time studying computer science.</p></div>
+    <div class="essay-grid">{% for essay in essay_pages limit:include.limit %}{% include essays/essay-card.html essay=essay %}{% endfor %}</div>
+    {% if include.limit and essay_pages.size > include.limit %}<a class="section-link" href="{{ '/essays/' | relative_url }}">View all {{ essay_pages.size }} essays <span aria-hidden="true">↗</span></a>{% endif %}
   </div>
-</div>
+</section>
