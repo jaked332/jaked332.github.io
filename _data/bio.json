@@ -90,6 +90,31 @@
   ],
   "projects": [
     {
+      "name": "The Weird, Wonderful Web - Interactive Web Museum",
+      "context": "Independent web project",
+      "year": "2026",
+      "url": "/projects/web-wonders.html",
+      "live": "https://explore-web-wonders.vercel.app/",
+      "github": "https://github.com/jaked332/web-wonders",
+      "stack": "React, TypeScript, Vite, Playwright, axe-core, Vercel",
+      "highlights": [
+        "Built and deployed an interactive museum of 24 web exhibits across four galleries with full-text search, filtering, random discovery, shareable URLs, responsive layouts, and accessible native dialogs.",
+        "Created original interactive CSS/SVG previews with no third-party browsing requests and added Playwright coverage for responsive layouts, navigation history, sharing, failure handling, keyboard behavior, and automated accessibility checks."
+      ]
+    },
+    {
+      "name": "HVACSim - MITRE Caldera for OT Capstone",
+      "context": "Capstone with MITRE's OT Cybersecurity Engineering team",
+      "year": "Sep 2025 - Dec 2025",
+      "url": "/projects/hvacsim.html",
+      "github": "https://github.com/jaked332/MITRE_SimEnv",
+      "stack": "Python, Linux, BACnet/IP, BACpypes, Matplotlib, MITRE Caldera for OT",
+      "highlights": [
+        "Collaborated directly with MITRE's OT Cybersecurity Engineering team to build a software-only BACnet/IP server-room HVAC simulator for Caldera for OT red/blue-team and cyber-physical testing.",
+        "Implemented writable BACnet control points, PI-controlled temperature and chiller dynamics, sensor noise, actuator lag, emergency-stop behavior, and a real-time HMI; developed and validated the integration in Linux virtual machines."
+      ]
+    },
+    {
       "name": "Pineapple-Spire Financial Modeling Portal",
       "context": "Client project with Spire",
       "year": "2025",
@@ -109,6 +134,18 @@
       "highlights": [
         "Built search APIs for clubs by title and interests across a database of more than 100 organizations, and wrote a Python script to turn university spreadsheet data into JSON for ingestion.",
         "Set up GitHub Actions to run Playwright tests on merges to main, and contributed role-based access logic and shared React components."
+      ]
+    },
+    {
+      "name": "Sea of Islands",
+      "context": "Team project in graph algorithms",
+      "year": "2024",
+      "url": "/projects/sea-of-islands.html",
+      "github": "https://github.com/jaked332/sea-of-islands",
+      "stack": "Python, Graph Algorithms",
+      "highlights": [
+        "Led development on a three-person team to model island travel routes as a directed, weighted graph, adapting Dijkstra's algorithm to balance travel time and population priorities.",
+        "Designed a knowledge-sharing algorithm that prioritized visits using distance, population, skill gaps, and recency to support resource and knowledge distribution between islands."
       ]
     },
     {
