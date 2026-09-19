@@ -6,7 +6,6 @@ layout: home
 <div class="site-shell resume-shell">
   <header class="resume-header">
     <div><p class="eyebrow">Resume</p><h1>{{ site.data.bio.basics.name }}</h1><p class="resume-degree">{{ site.data.bio.basics.label }}</p></div>
-    <p class="print-note">For a PDF copy, use your browser's Print option and choose Save as PDF.</p>
     <p class="resume-summary">{{ site.data.bio.basics.summary }}</p>
     <ul class="resume-contact"><li>{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }}</li><li><a href="mailto:{{ site.data.bio.basics.email }}">{{ site.data.bio.basics.email }}</a></li>{% for profile in site.data.bio.basics.profiles %}<li><a href="{{ profile.url }}">{{ profile.network }} <span aria-hidden="true">↗</span></a></li>{% endfor %}</ul>
   </header>
